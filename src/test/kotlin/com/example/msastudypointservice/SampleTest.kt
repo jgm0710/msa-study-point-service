@@ -1,7 +1,5 @@
 package com.example.msastudypointservice
 
-import com.example.msastudypointservice.adepter.`in`.eventhandler.event.OrderCreatedEvent
-import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.junit.jupiter.api.Test
 

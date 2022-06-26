@@ -1,7 +1,6 @@
 package com.example.msastudypointservice.adepter.out.persistence
 
 import com.example.msastudypointservice.domain.reward.PassorderPoint
-import org.springframework.data.jpa.domain.AbstractPersistable_.id
 import java.time.Instant
 import java.util.*
 import javax.persistence.Entity
