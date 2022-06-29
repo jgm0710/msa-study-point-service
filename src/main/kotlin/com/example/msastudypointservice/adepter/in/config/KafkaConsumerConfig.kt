@@ -19,7 +19,7 @@ import org.springframework.kafka.core.DefaultKafkaConsumerFactory
 @Configuration
 class KafkaConsumerConfig {
 
-    private val BROKER_CONNECTION = "127.0.0.1:9092"
+    private val BROKER_CONNECTION = "b-1.passorderdevelopm.mocusd.c3.kafka.ap-northeast-2.amazonaws.com:9092,b-2.passorderdevelopm.mocusd.c3.kafka.ap-northeast-2.amazonaws.com:9092"
 
     @Bean
     fun consumerFactory(): ConsumerFactory<String, String> {

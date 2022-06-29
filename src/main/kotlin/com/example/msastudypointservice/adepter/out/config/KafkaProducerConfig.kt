@@ -17,7 +17,7 @@ import org.springframework.kafka.core.ProducerFactory
 @Configuration
 class KafkaProducerConfig {
 
-    private val BROKER_CONNECTION = "127.0.0.1:9092"
+    private val BROKER_CONNECTION = "b-1.passorderdevelopm.mocusd.c3.kafka.ap-northeast-2.amazonaws.com:9092,b-2.passorderdevelopm.mocusd.c3.kafka.ap-northeast-2.amazonaws.com:9092"
 
     @Bean
     fun producerFactory(): ProducerFactory<String, String> {
